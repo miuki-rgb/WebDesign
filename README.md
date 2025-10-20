@@ -30,9 +30,7 @@ Halaman ini mencakup:
 
 Screenshot berikut menunjukkan hasil akhir dari implementasi halaman profil ini.
 
-* **[Sertakan file `image_2e4721.jpg` di sini saat Anda membuat file README.md]**
-    *(Catatan: Anda perlu menyalin file gambar ke direktori yang sama dengan README.md atau menggunakan path relatif yang benar di sini. Misalnya, `![Screenshot Halaman Profil](image_2e4721.jpg)`)*
-
+![Tampilan Desain Web](https://raw.githubusercontent.com/miuki-rgb/WebDesign/main/images/Screenshot%202025-10-20%20230845.png)
 ---
 
 *Dibuat untuk memenuhi tugas Mata Kuliah Pemrograman Web 1.*
