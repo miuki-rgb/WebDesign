@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="id">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Profil — Contoh</title>
+        <link href="bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/profile.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="bg-light border-bottom">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand fw-bold" href="#">Profile</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="nav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Friends</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Message</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main class="profile-page">
+            <!-- Cover -->
+            <section class="profile-cover">
+                <div class="cover-photo" style="background-image: url('images/Banner.jpg')"></div>
+                <div class="container">
+                    <div class="d-flex align-items-end profile-header">
+                        <div class="avatar-wrapper">
+                            <img src="images/leah_profil.jpg" alt="Avatar" class="avatar img-thumbnail">
+                        </div>
+                        <div class="ms-3 text-white profile-name">
+                            <h2 class="mb-0">Leah</h2>
+                            <p class="mb-0">Inazuma • 10 teman</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="profile-nav bg-white border-top">
+                <div class="container">
+                    <ul class="nav nav-pills profile-nav-list">
+                        <li class="nav-item"><a class="nav-link active" href="#">Posts</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Friends</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Photos</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <div class="container mt-4">
+                <div class="row">
+                    <!-- Left sidebar -->
+                    <aside class="col-lg-3 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">About</h5>
+                                <p class="card-text">Call me Leah. Content Creator, Love Dancing and hear J-song.</p>
+                                <hr>
+                                <h6>Info kontak</h6>
+                                <p class="mb-0">email@example.com</p>
+                            </div>
+                        </div>
+                    </aside>
+
+                    <!-- Main feed -->
+                    <section class="col-lg-6 mb-4">
+                        <div class="card mb-3">
+                            <div class="card-body d-flex align-items-start gap-3">
+                                <img src="images/leah_profil.jpg" class="rounded-circle" width="48" height="48" alt="avatar">
+                                <div>
+                                    <h6 class="mb-0">Leah</h6>
+                                    <small class="text-muted">1 Hour Ago</small>
+                                    <p class="mt-2">Saint Snow.</p>
+                                    <div class="d-flex gap-3">
+                                        <button class="btn btn-sm btn-outline-primary">Like</button>
+                                        <button class="btn btn-sm btn-outline-secondary">Comment</button>
+                                        <button class="btn btn-sm btn-outline-secondary">Share</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="card-body">Other Content.</div>
+                        </div>
+                    </section>
+
+                    <!-- Right sidebar -->
+                    <aside class="col-lg-3 mb-4">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h6>Friends</h6>
+                                <div class="d-flex flex-wrap gap-2 mt-2">
+                                    <img src="images/friend1.jpeg" class="rounded" width="60" height="60" alt="f">
+                                    <img src="images/friend2.jpg" class="rounded" width="60" height="60" alt="f">
+                                    <img src="images/friend3.jpg" class="rounded" width="60" height="60" alt="f">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-body">
+                                <h6>Foto</h6>
+                                <div class="row g-2 mt-2">
+                                    <div class="col-6"><div class="img-thumb" style="background-image:url('images/pic1.png')"></div></div>
+                                    <div class="col-6"><div class="img-thumb" style="background-image:url('images/pic2.jpg')"></div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </main>
+
+
+        <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
